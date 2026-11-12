@@ -1,0 +1,12 @@
+# gpty plugin manifest — validated by the gpty CLI at install time.
+id = "godot-pty/gpty-knowledge-base"
+name = "Knowledge Base"
+version = "0.1.0"
+min_gpty_version = "0.5.5"
+platforms = ["linux", "macos", "windows"]
+
+[[profiles]]
+name = "Knowledge Base"
+tiles = [
+  { col = 0, row = 0, cspan = 60, rspan = 60, settings = { type = "wiki", pane_name = "Knowledge Base", attachment_id = "knowledge", vault_path = "@knowledge", view_mode = "preview", open_note = "index.md" } },
+]
